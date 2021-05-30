@@ -1,0 +1,11 @@
+Lasagna
+Pizza
+Sandwich
+Pasta
+Sushi
+Taco
+Burrito
+Stir Fry
+Shawarma
+Dim Sum
+Fried Rice
