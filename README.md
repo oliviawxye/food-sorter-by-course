@@ -2,7 +2,7 @@
 
 <img src="gui.png" width="600">
 
-Created as a take-home project for the RBC Innovation Developer 2020 application.
+Created as a take-home project for the RBC Innovation Developer 2020 application. Developed April 2021.
 
 ## Functionality
 
