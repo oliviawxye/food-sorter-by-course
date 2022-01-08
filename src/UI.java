@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 import java.awt.*;
 import java.io.*;
 import java.util.*;
@@ -12,11 +7,10 @@ import javax.swing.*;
 /**
  *
  * @author oliviaye
- * RBC Innovation Developer Code Project for Walk-through
  * Food Sorting Application
  * 
  */
-public class RBCUI extends javax.swing.JFrame {
+public class UI extends javax.swing.JFrame {
 
     // Loads the files into a file variable for future use
     File appetizersFile = new File("appetizers.txt"); 
@@ -187,9 +181,9 @@ public class RBCUI extends javax.swing.JFrame {
     }
 
     /**
-     * Creates new form RBCUI
+     * Creates new form UI
      */
-    private RBCUI() {
+    private UI() {
         initComponents();
         scaleImage();
         begin();
@@ -224,7 +218,7 @@ public class RBCUI extends javax.swing.JFrame {
         jCheckBoxMenuItem1.setText("jCheckBoxMenuItem1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("RBC Innovation Developer - Olivia Ye");
+        setTitle("Food Sorter by Course - Olivia Ye");
         setBackground(new java.awt.Color(41, 65, 129));
 
         jPanel1.setBackground(new java.awt.Color(36, 37, 38));
@@ -394,13 +388,11 @@ public class RBCUI extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -477,27 +469,28 @@ public class RBCUI extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(RBCUI.class
+            java.util.logging.Logger.getLogger(UI.class
                     .getName()).log(java.util.logging.Level.SEVERE, null, ex);
 
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(RBCUI.class
+            java.util.logging.Logger.getLogger(UI.class
                     .getName()).log(java.util.logging.Level.SEVERE, null, ex);
 
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(RBCUI.class
+            java.util.logging.Logger.getLogger(UI.class
                     .getName()).log(java.util.logging.Level.SEVERE, null, ex);
 
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(RBCUI.class
+            java.util.logging.Logger.getLogger(UI.class
                     .getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new RBCUI().setVisible(true);
+                new UI().setVisible(true);
             }
         });
 
