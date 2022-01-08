@@ -10,9 +10,9 @@ Created as a take-home project for the RBC Innovation Developer 2020 application
 2. Reads `misspellings.txt` to populate an array of common misspellings for each food
 3. Provides the user with two options to check their course of food: menu select, or manual input
 4. Menu select returns determined course matches
-5. Manual input returns determined courses matches if the inputted food name is a direct match, else,
- a. Checks the input to see if it contains a food name in the list (e.g. "onion soup" contains "soup") and displays the course of the containing food as a suggestion <br>
- b. If unsuccessful, checks the misspellings array to see if it is a common misspelling of any of the names (e.g. "waffels" is a common misspelling of "waffles") and displays the course of the properly spelled food as a suggestion <br>
+5. Manual input returns determined courses matches if the inputted food name is a direct match, else, <br>
+    a. Checks the input to see if it contains a food name in the list (e.g. "onion soup" contains "soup") and displays the course of the containing food as a suggestion <br>
+    b. If unsuccessful, checks the misspellings array to see if it is a common misspelling of any of the names (e.g. "waffels" is a common misspelling of "waffles") and displays the course of the properly spelled food as a suggestion 
 
 ## Technical Details
 
